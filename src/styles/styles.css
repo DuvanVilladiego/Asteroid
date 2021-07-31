@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    scroll-behavior:hidden ;
+}
+
+.player{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color:white;
+}
+
+.bullet{
+    position: fixed;
+    color:aliceblue;
+}
+
+.bulletContainer{
+    position: fixed;
+}
+
+.shoots{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+.asteroids{
+    position: fixed;
+    z-index: 10;
+}
+
+.asteroidContainer{
+    position: fixed;
+}
